@@ -1,21 +1,14 @@
-const menuButton = document.getElementById("menuButton");
-const navLinks = document.getElementById("navLinks");
-
-// Open or close the navigation menu on small screens.
-menuButton.addEventListener("click", function () {
-  const isOpen = navLinks.classList.toggle("open");
-  menuButton.setAttribute("aria-expanded", isOpen);
-  menuButton.textContent = isOpen ? "Close ✕" : "Menu ☰";
-});
-
-// Close the menu after a navigation link is selected.
-navLinks.querySelectorAll("a").forEach(function (link) {
-  link.addEventListener("click", function () {
-    navLinks.classList.remove("open");
-    menuButton.setAttribute("aria-expanded", "false");
-    menuButton.textContent = "Menu ☰";
+const toggle = document.getElementById('menuToggle');
+const links = document.getElementById('navLinks');
+if (toggle && links) {
+  toggle.addEventListener('click', () => {
+    const open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', String(open));
   });
-});
-
-// Show the current year in the footer.
-document.getElementById("year").textContent = new Date().getFullYear();
+  links.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+    links.classList.remove('open');
+    toggle.setAttribute('aria-expanded', 'false');
+  }));
+}
+const year = document.getElementById('year');
+if (year) year.textContent = new Date().getFullYear();

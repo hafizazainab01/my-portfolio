@@ -1,141 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Zainab's personal portfolio website">
-  <title>Zainab | Computer Science Student</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Zainab Malik — Computer Science student and aspiring developer">
+<title>Zainab Malik | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <nav class="container nav" aria-label="Main navigation">
-      <a class="logo" href="#home" aria-label="Zainab home">Z.</a>
-      <button class="menu-button" id="menuButton" aria-expanded="false" aria-controls="navLinks">Menu ☰</button>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero" id="home">
-      <div class="container hero-content">
-        <div class="hero-copy">
-          <p class="eyebrow">Welcome to my portfolio</p>
-          <h1>Hi, I'm <span>Zainab.</span></h1>
-          <p>I'm a Computer Science student passionate about technology, programming, and creating useful digital experiences. I'm learning new skills and building my journey in tech.</p>
-          <div class="buttons">
-            <a class="button button-primary" href="#projects">Explore My Work</a>
-            <a class="button button-outline" href="#contact">Contact Me</a>
-          </div>
-        </div>
-        <div class="profile-card">
-          <div class="avatar" aria-label="Initial Z">Z</div>
-          <h2>Zainab</h2>
-          <p>Computer Science Student</p>
-          <p class="muted">Learning · Creating · Growing</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="about">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Get to know me</p>
-          <h2>About Me</h2>
-          <p>A little introduction about who I am.</p>
-        </div>
-        <div class="about-content">
-          <p>Hello! I'm Zainab, a Computer Science student interested in programming, web development, and problem-solving.</p>
-          <p>I'm currently developing my skills in HTML, CSS, and Python. I enjoy learning how websites work and turning ideas into simple, useful projects.</p>
-          <p>My goal is to strengthen my technical knowledge, work on practical projects, and grow into a confident professional in the technology field.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section soft-section" id="skills">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">What I'm learning</p>
-          <h2>My Skills</h2>
-          <p>The technologies I'm developing my knowledge of.</p>
-        </div>
-        <div class="card-grid">
-          <article class="card">
-            <div class="skill-icon">H5</div>
-            <h3>HTML</h3>
-            <p>Building webpage structures with headings, paragraphs, links, images, and semantic elements.</p>
-          </article>
-          <article class="card">
-            <div class="skill-icon">C3</div>
-            <h3>CSS</h3>
-            <p>Styling websites with colors, layouts, spacing, responsive design, and visual effects.</p>
-          </article>
-          <article class="card">
-            <div class="skill-icon">Py</div>
-            <h3>Python</h3>
-            <p>Learning programming fundamentals, variables, conditions, loops, functions, and problem-solving.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="projects">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">My learning journey</p>
-          <h2>My Projects</h2>
-          <p>Starter project ideas to personalize with your own work.</p>
-        </div>
-        <div class="card-grid">
-          <article class="card project-card">
-            <p class="project-number">PROJECT 01</p>
-            <h3>Personal Portfolio</h3>
-            <p>A responsive website introducing me, my skills, learning journey, and contact information.</p>
-            <span class="tag">HTML</span><span class="tag">CSS</span>
-          </article>
-          <article class="card project-card">
-            <p class="project-number">PROJECT 02</p>
-            <h3>Student Grade Calculator</h3>
-            <p>A beginner Python program idea that calculates total marks, percentage, and grades from entered scores.</p>
-            <span class="tag">Python</span>
-          </article>
-          <article class="card project-card">
-            <p class="project-number">PROJECT 03</p>
-            <h3>Simple Landing Page</h3>
-            <p>A clean webpage concept designed to practice layouts, typography, navigation, and responsive styling.</p>
-            <span class="tag">HTML</span><span class="tag">CSS</span>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section soft-section" id="contact">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Let's connect</p>
-          <h2>Contact Me</h2>
-          <p>Have a question or want to connect? Get in touch.</p>
-        </div>
-        <div class="contact-box">
-          <h3>I'd love to hear from you!</h3>
-          <p>You can contact me by email about learning, collaboration, or student projects.</p>
-          <!-- Replace the placeholder email with your real email address. -->
-          <a class="button button-primary" href="mailto:your.email@example.com">Send Me an Email</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <p>© <span id="year"></span> Zainab. All rights reserved.</p>
-    <p>Designed and built with HTML, CSS, and JavaScript.</p>
-  </footer>
-</body>
-</html>
+<header class="header"><nav class="wrap nav"><a class="brand" href="#home"><b>ZM</b> Zainab Malik<span>.</span></a><button id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button><div id="navLinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a class="nav-cta" href="#contact">Contact ↗</a></div></nav></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid"><div><p class="eyebrow"><i></i> COMPUTER SCIENCE STUDENT</p><h1>Building ideas<br>into <em>real solutions.</em></h1><p class="intro">Hi, I'm <strong>Zainab Malik</strong> — a Computer Science student learning to solve problems through code, thoughtful design, and practical projects.</p><div class="actions"><a class="btn primary" href="#projects">Explore my projects ↘</a><a class="btn secondary" href="#contact">Let's connect ↗</a></div><p class="micro">Currently learning <span>·</span> Programming · Web · Problem-solving</p></div>
+<div class="art"><div class="glow"></div><div class="orbit one"></div><div class="orbit two"></div><div class="window"><div class="windowbar"><span>● ● ●</span><label>zainab.py</label></div><pre><span>01</span> <b>class</b> <i>Developer</i>:
+<span>02</span>   name = <u>"Zainab"</u>
+<span>03</span>   focus = [
+<span>04</span>      <u>"C++"</u>,
+<span>05</span>      <u>"Python"</u>,
+<span>06</span>      <u>"Web development"</u>
+<span>07</span>   ]
+<span>08</span>   <b>def</b> <i>keep_building</i>():
+<span>09</span>      <b>return</b> <u>"one step at a time"</u>
+<span>10</span>   ▍</pre></div><div class="chip top">⌘ &nbsp; Curious mind</div><div class="chip bottom">✓ &nbsp; Always learning</div></div></div><a class="scroll" href="#about">— &nbsp; SCROLL TO EXPLORE</a></section>
+<section class="section about" id="about"><div class="wrap split"><div><p class="eyebrow">01 / ABOUT ME</p><h2>Learning today.<br><span>Building for tomorrow.</span></h2></div><div class="copy"><p>I'm a Computer Science student interested in programming, logical thinking, and building useful software. I enjoy turning concepts from class into projects that help me practise and grow.</p><p>My current toolkit includes C++, Python, HTML, and CSS. I'm focused on strengthening my fundamentals, writing clearer code, and expanding my project experience.</p><div class="note"><b>✳</b><p><strong>My approach</strong><br>Stay curious, keep practising, and improve with every project.</p></div></div></div></section>
+<section class="section" id="skills"><div class="wrap"><div class="section-head"><div><p class="eyebrow">02 / MY TOOLKIT</p><h2>Skills I'm growing.</h2></div><p>A foundation in programming<br>and the web.</p></div><div class="skills">
+<article class="skill"><small>01</small><b class="skill-icon blue">C++</b><h3>C++</h3><p>Programming fundamentals, logic, and problem-solving.</p><label>PROGRAMMING</label></article>
+<article class="skill"><small>02</small><b class="skill-icon yellow">Py</b><h3>Python</h3><p>Learning to write readable code and build practical solutions.</p><label>PROGRAMMING</label></article>
+<article class="skill"><small>03</small><b class="skill-icon orange">&lt;/&gt;</b><h3>HTML</h3><p>Structuring clear, accessible pages for the web.</p><label>WEB</label></article>
+<article class="skill"><small>04</small><b class="skill-icon purple">✳</b><h3>CSS</h3><p>Styling responsive layouts and improving visual presentation.</p><label>WEB</label></article>
+</div></div></section>
+<section class="section projects" id="projects"><div class="wrap"><div class="section-head"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects I've worked on.</h2></div><p>Small projects, meaningful<br>practice, steady progress.</p></div><div class="project-grid">
+<article class="project"><div class="project-art virus"><small>C++ / SIMULATION</small><div class="virus-core">+</div><i></i><b></b><em></em></div><div class="project-body"><label>PROJECT 01 <span>↗</span></label><h3>Virus Spread Simulator Game</h3><p>A C++ simulation game exploring how a virus can spread between individuals through a simplified model.</p><div class="tags"><span>C++</span><span>Logic</span><span>Simulation</span></div></div></article>
+<article class="project"><div class="project-art students"><small>SYSTEM / MANAGEMENT</small><div class="record"><h4>STUDENT RECORDS <i></i></h4><p><b>AM</b><span>━━━━━<br>━━━</span><em>01</em></p><p><b>SK</b><span>━━━━━<br>━━━</span><em>02</em></p><p><b>ZM</b><span>━━━━━<br>━━━</span><em>03</em></p></div></div><div class="project-body"><label>PROJECT 02 <span>↗</span></label><h3>Student Management System</h3><p>A student-record project designed to organise student information and practise structured program logic.</p><div class="tags"><span>Programming</span><span>Data handling</span><span>Records</span></div></div></article>
+<article class="project"><div class="project-art truth"><small>LOGIC / BOOLEAN</small><div class="truth-table"><div><b>A</b><b>B</b><b>A AND B</b></div><div><span>0</span><span>0</span><span>0</span></div><div><span>0</span><span>1</span><span>0</span></div><div><span>1</span><span>0</span><span>0</span></div><div><span>1</span><span>1</span><strong>1</strong></div></div></div><div class="project-body"><label>PROJECT 03 <span>↗</span></label><h3>Truth Table Generator</h3><p>A logic-focused tool that generates truth-table outputs to practise Boolean expressions and foundational digital logic.</p><div class="tags"><span>Logic</span><span>Boolean algebra</span><span>Tables</span></div></div></article>
+</div><p class="footnote">Project summaries are kept general; add code repository links when your projects are available online.</p></div></section>
+<section class="section" id="contact"><div class="wrap contact"><div><p class="eyebrow">04 / GET IN TOUCH</p><h2>Have an idea?<br><em>Let's connect.</em></h2><p class="contact-copy">I'm open to connecting with fellow learners, developers, and people who enjoy building useful things with technology.</p></div><div class="contact-links"><a class="contact-link" href="mailto:hafizazainabmalik2009@gmail.com"><b>@</b><span><small>EMAIL ME</small><strong>hafizazainabmalik2009@gmail.com</strong></span><i>↗</i></a><a class="contact-link" href="https://www.linkedin.com/in/zainab-malik-6b4b67385" target="_blank" rel="noopener noreferrer"><b class="in">in</b><span><small>CONNECT ON LINKEDIN</small><strong>Zainab Malik's profile</strong></span><i>↗</i></a></div></div></section>
+</main>
+<footer><div class="wrap footer-top"><a class="brand" href="#home"><b>ZM</b> Zainab Malik<span>.</span></a><p>Designed with purpose. Built while learning.</p><a href="#home">BACK TO TOP ↑</a></div><div class="wrap footer-bottom"><span>© <span id="year"></span> Zainab Malik</span><span>Computer Science · Programming · Web</span></div></footer>
+<script src="script.js"></script>
+</body></html>

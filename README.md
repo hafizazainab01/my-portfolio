@@ -1,41 +1,29 @@
-# Zainab's Personal Portfolio
+# Zainab Malik — Portfolio
 
-A responsive portfolio website for a Computer Science student, built with HTML, CSS, and JavaScript.
+Responsive personal portfolio with a professional dark navy/black theme and blue/cyan accents.
 
-## Files in this project
+## Files
+- `index.html` — content and sections
+- `style.css` — responsive theme and layout
+- `script.js` — mobile navigation and current year
+- `README.md` — project notes
 
-- `index.html` — the structure and content of the website.
-- `style.css` — colors, layout, responsive styling, and visual design.
-- `script.js` — mobile navigation behavior and automatic footer year.
-- `README.md` — setup and deployment instructions.
+## Contact
+- Email: hafizazainabmalik2009@gmail.com
+- LinkedIn: https://www.linkedin.com/in/zainab-malik-6b4b67385
 
-## Run on Windows
+## Projects
+1. Virus Spread Simulator Game (C++)
+2. Student Management System
+3. Truth Table Generator
 
-1. Download and extract this ZIP file.
-2. Keep all four files in the same folder.
-3. Double-click `index.html` to open the website in Chrome or Microsoft Edge.
-4. To edit the website, right-click a file and choose **Open with** a text editor such as Notepad or Visual Studio Code.
+Descriptions are intentionally general because implementation details and repository URLs were not provided. Add code links when available.
 
-## Customize before submitting
+## Replace files in your existing GitHub repository
+1. Open the `my-portfolio` repository.
+2. Choose **Add file → Upload files**.
+3. Upload the four files from this folder: `index.html`, `style.css`, `script.js`, and `README.md`.
+4. Scroll down, enter a commit message such as `Redesign portfolio dark theme`, then click **Commit changes**.
+5. Wait a few minutes and refresh the live website. Your existing Pages setting (`main` and `/(root)`) can stay as it is.
 
-1. In `index.html`, replace `your.email@example.com` with your email address.
-2. Update the project cards so they describe projects you have actually completed. The current cards are starter examples.
-3. You can change your introduction and skills in `index.html`.
-
-## Upload to GitHub Pages
-
-1. Sign in at https://github.com/
-2. Create a **Public** repository, for example `zainab-portfolio`.
-3. Extract this ZIP file on your computer.
-4. Open your repository and select **Add file → Upload files**.
-5. Upload `index.html`, `style.css`, `script.js`, and `README.md` (upload the files themselves, not the ZIP).
-6. Commit the changes.
-7. Open **Settings → Pages**.
-8. Under **Build and deployment**, choose **Deploy from a branch**.
-9. Choose branch `main` and folder `/(root)`, then click **Save**.
-10. Wait for deployment and open the **Visit site** link shown on the Pages settings screen.
-
-Your website URL will usually look like:
-`https://YOUR-GITHUB-USERNAME.github.io/zainab-portfolio/`
-
-Official guide: https://docs.github.com/en/pages/quickstart
+GitHub Pages publishes files from the configured branch and folder. See https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
